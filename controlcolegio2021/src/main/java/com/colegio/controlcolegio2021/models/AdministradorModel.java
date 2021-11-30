@@ -13,7 +13,6 @@ public class AdministradorModel {
     private String correo;
     private String username;
     private String password;
-    private String hash;
 
     public String getId() {
         return id;
@@ -50,12 +49,6 @@ public class AdministradorModel {
     }
     public void setPassword(String password) {
         this.password = password;
-    }
-    public String getHash() {
-        return hash;
-    }
-    public void setHash(String hash) {
-        this.hash = hash;
     }
 
 

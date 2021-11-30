@@ -13,9 +13,9 @@ public class PagoModel {
     private EstudianteModel pagoCurso;
     private EstudianteModel pagoRecreacion;
     private String fecha;
-    private float montoMatricula;
-    private float montoCurso;
-    private float montoRecreacion;
+    private Float montoMatricula;
+    private Float montoCurso;
+    private Float montoRecreacion;
 
     public String getId() {
         return id;
@@ -56,19 +56,19 @@ public class PagoModel {
     public float getMontoMatricula() {
         return montoMatricula;
     }
-    public void setMontoMatricula(float montoMatricula) {
+    public void setMontoMatricula(Float montoMatricula) {
         this.montoMatricula = montoMatricula;
     }
-    public float getMontoCurso() {
+    public Float getMontoCurso() {
         return montoCurso;
     }
-    public void setMontoCurso(float montoCurso) {
+    public void setMontoCurso(Float montoCurso) {
         this.montoCurso = montoCurso;
     }
-    public float getMontoRecreacion() {
+    public Float getMontoRecreacion() {
         return montoRecreacion;
     }
-    public void setMontoRecreacion(float montoRecreacion) {
+    public void setMontoRecreacion(Float montoRecreacion) {
         this.montoRecreacion = montoRecreacion;
     }
 
